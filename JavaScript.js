@@ -13,6 +13,7 @@ function validateForm() {
       nameError.innerHTML = "Please Type Your Name";
       document.getElementById("name").classList.add("error-border");
     } else {
+      nameError.innerHTML = "";
       document.getElementById("name").classList.remove("error-border");
     }
   
